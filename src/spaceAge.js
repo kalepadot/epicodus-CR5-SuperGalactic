@@ -16,5 +16,9 @@ venus() {
   const venusAge =  Math.round(this.age / this.planet);
   return venusAge;
 }
-
+mars() {
+  // this.planet = 1.88;
+  // const marsAge = Math.round(this.age / this.planet);
+  // return marsAge;
+  }
 }
