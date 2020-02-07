@@ -8,7 +8,7 @@ test("should reconize UserAge", () => {
 });
 describe("mercury", () => {
 test("should divide age by .24", () => {
-  let userAge = new UserAge(30);
-  expect(mercuryAge).toEqual(125);
-})
+  let user = new UserAge(30);
+  expect(user.mercury()).toEqual(125);
+});
 });
