@@ -9,7 +9,7 @@ export class UserAge {
 mercury() {
   this.planet = .24;
   const mercuryAge = (this.age / this.planet);
-  // return mercuryAge;
+  return mercuryAge;
 }
 
 }
