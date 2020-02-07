@@ -20,7 +20,7 @@ describe("venus", () => {
 });
 describe("mars", () => {
   test("should divide age by 1.88", () => {
-    let user = new UserAge(30);
+    let user = new UserAge(25);
     expect(user.mars()).toEqual(16);
   });
 });
