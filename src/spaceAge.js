@@ -11,5 +11,10 @@ mercury() {
   const mercuryAge = (this.age / this.planet);
   return mercuryAge;
 }
+venus() {
+  // this.planet = .62;
+  // const venusAge =  (this.age / this.planet);
+  // return venusAge;
+}
 
 }
