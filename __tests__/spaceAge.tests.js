@@ -26,6 +26,7 @@ describe("mars", () => {
 });
 describe("jupiter", () => {
   test("should divide age by 11.86", () => {
+    let user = new UserAge();
     expect(user.mars()).toEqual();
   });
 });
