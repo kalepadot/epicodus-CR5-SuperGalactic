@@ -9,18 +9,36 @@
                                 __/ |                                                 
                                |___/    
 ```
-# _Space Age Calculator_
+# _Super Galactic Age Calculator_
 
-#### _Epicodus Code Review 5 Test Driven Development / Feb 7, 2020_
+#### _Epicodus Code Review 5 Test Driven Development 'Super Galactic Age Calculator' / Feb 7, 2020_
 
 #### By _**Jeremy Kale Padot**_
 
 ## Description
 
-A calculator that will determine your age per lunar year for each plantet of the solar system.
+_A calculator that will determine your age per lunar year for each plantet of the solar system._
 
 ## Specs
-* 
+<!-- will it automatically round up or down? add this function? -->
+* Application will accept numerical input from user (age) and return number
+  * input: 30
+  * output: 30
+* Application will divide user input by .24 to determine users age on Mercury and return
+  * input: 30
+  * output: 125
+* Application will divide user input by .62 to determine users age on Venus and return
+  * input: 30
+  * output: 48.3
+* Applicaion will divide user input by 1.88 to determine users age on Mars and return
+  * input: 30
+  * output: 15.9
+* Application will divide user input by 11.86 to determine users age on Jupiter and return
+  * input: 30
+  * output: 2.5
+  <!-- do some research below -->
+* Life Expectancy?
+* Passed Life Expectancy? 
 
 
 ## Setup/Installation Requirements
