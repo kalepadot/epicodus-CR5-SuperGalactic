@@ -14,7 +14,7 @@ test("should divide age by .24", () => {
 });
 describe("venus", () => {
   test("should divide age by .62", () => {
-    let user = new UserAge();
-    expect(user.venus()).toEqual();
+    let user = new UserAge(30);
+    expect(user.venus()).toEqual(48.3);
   });
 });
