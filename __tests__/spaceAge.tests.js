@@ -24,3 +24,8 @@ describe("mars", () => {
     expect(user.mars()).toEqual(16);
   });
 });
+describe("jupiter", () => {
+  test("should divide age by 11.86", () => {
+    expect(user.mars()).toEqual();
+  });
+});
