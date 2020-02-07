@@ -22,6 +22,8 @@ mars() {
   return marsAge;
   }
   jupiter() {
-    
+    this.planet = 11.86;
+    const jupiterAge = Math.round(this.age / this.planet);
+    return jupiterAge;
   }
 }
