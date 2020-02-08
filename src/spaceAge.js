@@ -4,6 +4,7 @@ export class UserAge {
   constructor(age, planet) {
   this.age = age;
   this.planet = planet;
+  this.expect = expect;
 }
 
   mercury() {
@@ -29,5 +30,13 @@ export class UserAge {
       const jupiterAge = Math.round(this.age / this.planet);
       return jupiterAge;
   }
+  lifeExpectancy() {
+    // this.expect = 80;
+    // if (this.age === 80) {
+    //   return ("Be Careful!");
+
+    }
+  
+
 
 }
