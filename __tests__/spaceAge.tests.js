@@ -32,7 +32,7 @@ describe("jupiter", () => {
 });
 describe("lifeExpectancy", () => {
   test("if reached life expectancy age, should alert user to be careful", () => {
-    let user = new UserAge(80);
+    let user = new UserAge(30);
     expect(user.lifeExpectancy()).toEqual("Be Careful!");
   });
 });
