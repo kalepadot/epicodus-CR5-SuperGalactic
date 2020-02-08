@@ -31,12 +31,12 @@ export class UserAge {
       return jupiterAge;
   }
   lifeExpectancy() {
-    // this.expect = 80;
-    // if (this.age === 80) {
-    //   return ("Be Careful!");
+    this.expect = 80;
+    if (this.age === 80) {
+      return ("Be Careful!");
 
     }
   
-
+  }
 
 }
