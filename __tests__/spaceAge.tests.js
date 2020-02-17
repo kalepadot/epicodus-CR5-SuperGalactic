@@ -30,9 +30,9 @@ describe("jupiter", () => {
     expect(user.jupiter()).toEqual(3);
   });
 });
-describe("lifeExpectancy", () => {
-  test("if reached life expectancy age, should alert user to be careful", () => {
+describe("lifeLeft", () => {
+  test("should subtract user age from 80 to get remaining years left", () => {
     let user = new UserAge(30);
-    expect(user.lifeExpectancy()).toEqual("Be Careful!");
+    expect(user.lifeLeft()).toEqual(50);
   });
 });
