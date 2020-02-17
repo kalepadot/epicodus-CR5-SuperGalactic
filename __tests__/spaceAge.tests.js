@@ -36,3 +36,9 @@ describe("lifeExpect", () => {
     expect(user.lifeExpect()).toEqual(50);
   });
 });
+describe("planetExpect", () => {
+  test("should get remaining years left on specific planets", () => {
+    let user = new UserAge();
+    expect(user.planetExpect()).toEqual();
+  });
+});
