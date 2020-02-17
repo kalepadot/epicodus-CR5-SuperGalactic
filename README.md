@@ -20,7 +20,6 @@
 _A calculator that will determine your age per lunar year for each plantet of the solar system._
 
 ## Specs
-<!-- will it automatically round up or down? add this function? -->
 * Application will accept numerical input from user (age) and return number
   * input: 30
   * output: 30
@@ -50,11 +49,11 @@ _A calculator that will determine your age per lunar year for each plantet of th
 
 ## Setup/Installation Requirements
 
-<!-- * _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_ -->
+* For Devs, open git repository and copy repo link https://github.com/kalepadot/epicodus-CR5-SuperGalactic.git
+* In your terminal desktop, clone the repo and open in text editor.
+* $ git clone repo link, $ git cd to repo, $ code . (this will open in your text editor) VSCode suggested.
+* You will need to download bootstrap vr 3.3.7 and add to your css file. download from the website adn drag to your folder. Make sure your link and script are up to date with applied bootstrap.
+* Same rules apply to jQuery ver 3.4.1. apply to your scrips above js/scripts.js There are links to google fonts in the header.
 
 
 
@@ -76,6 +75,7 @@ _For support/ questions/ bugs contact Jeremy Kale Padot at: jeremy@padot.us_
 * CSS
 * JavaScript
 * Terminal
+* Jest
 
 ### License
 
