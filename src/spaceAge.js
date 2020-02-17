@@ -22,12 +22,13 @@ export class UserAge {
   }
 
   jupiter() {
-      let jupiterAge = Math.round(this.age / 11.86);
+    let jupiterAge = Math.round(this.age / 11.86);
       return jupiterAge;
   }
 
-  timeLeft() {
- 
+  lifeExpect() {
+   let lifeExpect = Math.round(80 - this.age);
+      return lifeExpect;
   }
 
   }
