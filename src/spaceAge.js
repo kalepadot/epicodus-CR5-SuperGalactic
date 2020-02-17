@@ -1,42 +1,34 @@
 // Business Logic
 // export function 
 export class UserAge {
-  constructor(age, planet) {
-  this.age = age;
-  this.planet = planet;
-  this.expect = expect;
-}
+  constructor(age) {
+    this.age = age;
+
+  }
 
   mercury() {
-    this.planet = .24;
-    const mercuryAge = Math.round(this.age / this.planet);
+    let mercuryAge = Math.round(this.age / .24);
     return mercuryAge;
   }
 
   venus() {
-    this.planet = .62;
-    const venusAge =  Math.round(this.age / this.planet);
+    let venusAge =  Math.round(this.age / .62);
     return venusAge;
   }
 
   mars() {
-    this.planet = 1.88;
-    const marsAge = Math.round(this.age / this.planet);
+    let marsAge = Math.round(this.age / 1.88);
     return marsAge;
   }
 
   jupiter() {
-      this.planet = 11.86;
-      const jupiterAge = Math.round(this.age / this.planet);
+      let jupiterAge = Math.round(this.age / 11.86);
       return jupiterAge;
   }
-  lifeExpectancy() {
-    this.expect = 80;
-    if (this.age === 80) {
-      return ("Be Careful!");
 
-    }
-  
+  // lifeExpectancy() {
+  //   this.expect = 80;
+  //   if (this.age === 80) {
+  //     return ("Be Careful!");
+
   }
-
-}
