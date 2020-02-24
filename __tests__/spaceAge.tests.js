@@ -39,7 +39,7 @@ describe("lifeExpect", () => {
 describe("planetExpect", () => {
   test("should get remaining years left on specific planets", () => {
     let user = new UserAge(30);
-    let expected = {mercury:208};
+    let expected = {mercury:208, jupiter:4, mars: 27, venus:81};
     expect(user.planetExpect()).toEqual(expected);
   });
 });
