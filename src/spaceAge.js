@@ -31,12 +31,11 @@ export class UserAge {
   }
 
   planetExpect() {
-    let planetExpect = {};
-    planetExpect.mercury = Math.round(this.lifeExpect() / .24);
-    planetExpect.venus = Math.round(this.lifeExpect() / .62);
-    planetExpect.mars = Math.round(this.lifeExpect() / 1.88);
-    planetExpect.jupiter = Math.round(this.lifeExpect() / 11.86);
-      return planetExpect;
+    return {
+      mercury: Math.round(this.lifeExpect() / .24),
+      venus: Math.round(this.lifeExpect() / .62),
+      mars: Math.round(this.lifeExpect() / 1.88),
+      jupiter: Math.round(this.lifeExpect() / 11.86)
+    };
   }
-
 }
